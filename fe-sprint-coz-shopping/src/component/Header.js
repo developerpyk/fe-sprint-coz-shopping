@@ -1,6 +1,8 @@
+import React from 'react';
 import './header.css';
 
 export default function Header() {
+    
     return (
         // header-container가 flex conatainer임.
         <header className="header-container">
