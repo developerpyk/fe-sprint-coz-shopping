@@ -6,6 +6,7 @@ import logo from "../img/logo.png"
 import hamburger from "../img/hamburger.png"
 import products from "../img/products.png"
 import bookmark from "../img/bookmark.png"
+import DropdownItem from './Dropdown';
 
 export default function Header() {
 
@@ -43,12 +44,3 @@ export default function Header() {
     );
 }
 
-
-function DropdownItem(props) {
-    return (
-        <li className='dropdown-page'>
-            <img src={props.img}></img>
-            <a> {props.text}</a>
-        </li>
-    )
-}
