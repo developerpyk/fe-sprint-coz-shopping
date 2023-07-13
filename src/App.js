@@ -8,7 +8,7 @@ import './base.css'
 
 
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Header />
@@ -22,15 +22,6 @@ function App() {
 }
 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        coz-shopping
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
 
