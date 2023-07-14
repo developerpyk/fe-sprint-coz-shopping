@@ -12,7 +12,6 @@ export default function Header() {
 
     const [open, setOpen] = useState(false);
 
-
     return (
         // header-container가 flex conatainer임.
         <header className="header-container">
@@ -26,18 +25,15 @@ export default function Header() {
                     <h1 className="logo-title">COZ Shopping</h1>
                 </Link>
             </div>
-            <div className="hamburger-button" onClick={() => {setOpen(!open)}}>
+            <div className="hamburger-button" onClick={() => { setOpen(!open) }}>
                 <img src={hamburger} alt="hamburger button"></img>
             </div>
             <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
                 <ul>
                     <p>{"박윤경님, 안녕하세요!"}</p>
-                    <Link to="/products/list">
-                        <DropdownItem img={products} text={"상품리스트 페이지"} />
-                    </Link>
-                    <Link to="/bookmark">
-                        <DropdownItem img={bookmark} text={"북마크 페이지"} />
-                    </Link>
+                    <DropdownItem href="/products/list" img={products} text={"상품리스트 페이지"} />
+                    <DropdownItem href="/bookmark" img={bookmark} text={"북마크 페이지"} />
+
                 </ul>
             </div>
         </header>
