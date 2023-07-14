@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Header from './component/Header'
-import Footer from './component/Footer'
-import Main from './page/Main'
-import List from './page/List'
-import Bookmark from './page/Bookmark'
-import './base.css'
+import Header from './Header';
+import Footer from './Footer';
+import Main from './page/Main';
+import Products from './page/Products';
+import Bookmark from './page/Bookmark';
+import './base.css';
 
 
 
@@ -15,7 +15,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main></Main>} />
-        <Route path="/products/list" element={<List></List>} />
+        <Route path="/products/list" element={<Products></Products>} />
         <Route path="/bookmark" element={<Bookmark></Bookmark>} />
       </Routes>
       <Footer />

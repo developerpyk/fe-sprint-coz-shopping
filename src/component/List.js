@@ -1,6 +1,3 @@
-import React from 'react';
-import products from '../component/Products'
-import Header from '../component/Header'
 
 export default function List() {
     return (

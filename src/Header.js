@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import './header.css';
-import logo from "../img/logo.png"
-import hamburger from "../img/hamburger.png"
-import products from "../img/products.png"
-import bookmark from "../img/bookmark.png"
-import DropdownItem from './Dropdown';
+import logo from "../src/img/logo.png";
+import hamburger from "../src/img/hamburger.png";
+import products from "../src/img/products.png";
+import bookmark from "../src/img/bookmark.png";
+import DropdownItem from './component/Dropdown';
 
 export default function Header() {
 
@@ -26,7 +26,7 @@ export default function Header() {
                     <h1 className="logo-title">COZ Shopping</h1>
                 </Link>
             </div>
-            <div className="hamburger-button" onClick={() => { setOpen(!open) }}>
+            <div className="hamburger-button" onClick={() => {setOpen(!open)}}>
                 <img src={hamburger} alt="hamburger button"></img>
             </div>
             <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
