@@ -1,0 +1,56 @@
+.main-page-wrapper {
+    width: 1280px;
+    height: 694x;
+    margin: 24px 0px;
+}
+
+.product-list-wrapper {
+   display: flex;
+   flex-direction: column;
+   margin-top: 24px;
+   margin-bottom: 12px;
+   margin-left: 76px;
+   margin-right: 76px;
+   gap:12px;
+   width: 1128px;
+   height: 314px;
+}
+
+.product-list-title{
+    font-size: 24px;
+    font-weight:600;
+    width: 179px;
+    height: 38px;
+}
+
+.product-info-wrapper {
+    display: flex;
+    gap:24px;
+    width: 1128px;
+    height: 264px;
+}
+
+.bookmark-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-left: 76px;
+    margin-right: 76px;
+    gap:12px;
+    width: 1128px;
+    height: 314px;
+ }
+ 
+ .bookmark-list-title{
+    font-size: 24px;
+    font-weight:600;
+    width: 179px;
+    height: 38px;
+}
+
+ .bookmark-info-wrapper {
+    display: flex;
+    gap:24px;
+    width: 1128px;
+    height: 264px;
+}
