@@ -1,0 +1,24 @@
+.list-wrapper {
+    width: 554px;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 287px;
+    margin-right: 287px;
+}
+
+.button{
+width: 82px;
+height: 110px;
+margin-right: 36px;
+border: none;
+cursor: pointer;
+background-color: white;
+}
+
+.button-img{
+    margin: 0px;
+    width: 82px;
+    height: 82px;
+}

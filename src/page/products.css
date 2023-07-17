@@ -1,0 +1,30 @@
+.products-page-wrapper {
+    width: 1280px;
+    height: 694px;
+    margin: 24px 0px;
+ 
+}
+
+.products-list-wrapper {
+    position:relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 76px;
+    margin-right: 76px;
+    gap: 12px;
+    width: 1128px;
+    height: 1502px;
+}
+
+.products-info-wrapper {
+    overflow-y: scroll;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:12px;
+    margin-bottom: 88px;
+    width: 1128px;
+    height: 1502px;
+}
